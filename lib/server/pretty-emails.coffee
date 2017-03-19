@@ -1,13 +1,3 @@
-OriginalHandlebars.registerHelper 'footer', ->
-  options = _.extend(@, PrettyEmail.options)
-  if options.companyName
-    Handlebars.templates.footer(options)
-
-OriginalHandlebars.registerHelper 'eachLine', (options) ->
-  _.reduce @message?.split('\n'), (result, content) ->
-    result + options.fn(content)
-  , ''
-
 PrettyEmail =
   options: {}
   defaults:

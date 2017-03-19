@@ -29,10 +29,6 @@
       "1.0.2"
     ],
     [
-      "cmather:handlebars-server",
-      "0.2.0"
-    ],
-    [
       "coffeescript",
       "1.0.4"
     ],
